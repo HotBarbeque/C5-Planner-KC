@@ -22,8 +22,62 @@ $(document).ready(function () {
   // TODO: Add code to display the current date in the header of the page.
 var currentDay =$('#currentDay');
 
-
 var date = dayjs().format('dddd, MMMM DD');
 currentDay.text(date);
+
+//Saves and Pulls input to and from local storage
+var save9 =$('#save9');
+save9.on('click', function () {
+localStorage.setItem(9,$('#text9').val());
+})
+$('#text9').val(localStorage.getItem('9'));
+
+var save10 =$('#save10');
+save10.on('click', function () {
+localStorage.setItem(10,$('#text10').val());
+})
+$('#text10').val(localStorage.getItem('10'));
+
+var save11 =$('#save11');
+save11.on('click', function () {
+localStorage.setItem(11,$('#text11').val());
+})
+$('#text11').val(localStorage.getItem('11'));
+
+var save12 =$('#save12');
+save12.on('click', function () {
+localStorage.setItem(12,$('#text12').val());
+})
+$('#text12').val(localStorage.getItem('12'));
+
+var save13 =$('#save13');
+save13.on('click', function () {
+localStorage.setItem(13,$('#text13').val());
+})
+$('#text13').val(localStorage.getItem('13'));
+
+var save14 =$('#save14');
+save14.on('click', function () {
+localStorage.setItem(14,$('#text14').val());
+})
+$('#text14').val(localStorage.getItem('14'));
+
+var save15 =$('#save15');
+save15.on('click', function () {
+localStorage.setItem(15,$('#text15').val());
+})
+$('#text15').val(localStorage.getItem('15'));
+
+var save16 =$('#save16');
+save16.on('click', function () {
+localStorage.setItem(16,$('#text16').val());
+})
+$('#text16').val(localStorage.getItem('16'));
+
+var save17 =$('#save17');
+save17.on('click', function () {
+localStorage.setItem(17,$('#text17').val());
+})
+$('#text17').val(localStorage.getItem('17'));
 
 });
